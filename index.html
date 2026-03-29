@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Hargun's Animint2 Gallery</title>
+  <style>
+    body { font-family: Georgia, serif; max-width: 900px; margin: 40px auto; padding: 0 20px; color: #222; }
+    h1 { font-size: 2em; margin-bottom: 5px; }
+    p.desc { color: #555; margin-bottom: 30px; }
+    table { width: 100%; border-collapse: collapse; }
+    th { text-align: left; border-bottom: 2px solid #ccc; padding: 8px; font-size: 0.85em; color: #666; }
+    tr { border-bottom: 1px solid #eee; }
+    td { padding: 16px 8px; vertical-align: middle; }
+    td img { width: 220px; border: 1px solid #ddd; }
+    a.demo { background: #2ea44f; color: white; padding: 5px 12px; border-radius: 4px; text-decoration: none; font-size: 0.85em; }
+    a.link { color: #0969da; margin-left: 10px; font-size: 0.9em; }
+  </style>
+</head>
+<body>
+  <h1>Hargun's Animint2 Gallery</h1>
+  <p class="desc">Data visualizations created using the R package <a href="https://github.com/tdhock/animint2">animint2</a> for GSoC 2026.</p>
+  <table>
+    <thead>
+      <tr>
+        <th>Screenshot</th>
+        <th>Title</th>
+        <th>Links</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a href="https://hargun144.github.io/animint2-easy"><img src="easy.png" alt="Gapminder"></a></td>
+        <td>Gapminder: GDP vs Life Expectancy</td>
+        <td>
+          <a class="demo" href="https://hargun144.github.io/animint2-easy">Interactive Demo</a>
+          <a class="link" href="https://github.com/hargun144/animint2-test/blob/main/viz.R">source</a>
+        </td>
+      </tr>
+      <tr>
+        <td><a href="https://hargun144.github.io/animint2-medium"><img src="medium.png" alt="Simple Random Sampling"></a></td>
+        <td>Simple Random Sampling</td>
+        <td>
+          <a class="demo" href="https://hargun144.github.io/animint2-medium">Interactive Demo</a>
+          <a class="link" href="https://github.com/hargun144/animint2-test/blob/main/medium_test.R">source</a>
+        </td>
+      </tr>
+      <tr>
+        <td><a href="https://hargun144.github.io/animint2-medium2"><img src="medium2.png" alt="Stratified Sampling"></a></td>
+        <td>Stratified Random Sampling</td>
+        <td>
+          <a class="demo" href="https://hargun144.github.io/animint2-medium2">Interactive Demo</a>
+          <a class="link" href="https://github.com/hargun144/animint2-test/blob/main/medium_test2.R">source</a>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
